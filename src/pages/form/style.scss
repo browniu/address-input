@@ -1,0 +1,24 @@
+.root {
+  padding: 0 25px;
+  max-width: 800px;
+}
+
+.inputGroup {
+  position: relative;
+
+  .input {
+    pointer-events: none;
+    font-size: 15px;
+    padding: 25px 0;
+    color: #222222;
+    border-bottom: 1px solid #f3f3f3;
+    width: 100%;
+    span{
+      color: #9c9aa5;
+    }
+  }
+
+  textarea {
+    overflow: hidden;
+  }
+}
