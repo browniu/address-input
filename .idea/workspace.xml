@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68f7765e-1ef2-4a9f-aef0-2089381b8627" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/node_modules/test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/node_modules/test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-516">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="242">
-                <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <first_editor relative-caret-position="189">
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,28 +85,6 @@
               <item name="address-input" type="b2602c69:ProjectViewProjectNode" />
               <item name="address-input" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="address-input" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-input" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="address-input" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-input" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="address-input" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-input" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="address-input" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-input" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570449320315</updated>
       <workItem from="1570449321726" duration="6675000" />
-      <workItem from="1570458015424" duration="1273000" />
+      <workItem from="1570458015424" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="结构优化">
       <created>1570459199228</created>
@@ -186,11 +153,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570459199228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="发布">
+      <created>1570459331423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459331423</updated>
+    </task>
+    <task id="LOCAL-00003" summary="发布">
+      <created>1570459458446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459458446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7948000" />
+    <option name="totallyTimeSpent" value="8299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -220,9 +201,12 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="代码迁移" />
     <MESSAGE value="结构优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="结构优化" />
+    <MESSAGE value="发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/poop/style.scss">
@@ -373,16 +357,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="147">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <first_editor relative-caret-position="189">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
           </first_editor>
           <second_editor />
         </state>
