@@ -31,6 +31,10 @@ class Example extends Component {
 }
 ```
 
+## API
+```JavaScript
+//...
+```
 
 ## License
 
