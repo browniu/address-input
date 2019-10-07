@@ -35,7 +35,8 @@ class Example extends Component {
 ```JavaScript
 //...
 ```
-
+## Update
+* 20191007 发布
 ## License
 
 MIT © [github.com/browniu](https://github.com/github.com/browniu)
