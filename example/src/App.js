@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
-import AddressInput from 'test'
+import AddressInput from 'address-input'
 
 export default class App extends Component {
-  render() {
+  render () {
     return (
       <div>
         <AddressInput submit={(info) => console.log(info)} style={{padding:'20px 0'}}/>

@@ -1,6 +1,6 @@
 {
-  "name": "test-example",
-  "homepage": "https://github.com/browniu.github.io/test",
+  "name": "address-input-example",
+  "homepage": "https://browniu.github.io/address-input",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "test": "link:.."
+    "address-input": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

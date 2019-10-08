@@ -32,11 +32,17 @@ class Example extends Component {
 ```
 
 ## API
-```JavaScript
-//...
-```
+
+| 接口        | 描述                 | 默认值                                                       |
+| ----------- | -------------------- | ------------------------------------------------------------ |
+| submit      | 返回地址数据         | [省,市,区,详细,地点]                                         |
+| style       | 输入框样式           | {font-size:'24px'}                                           |
+| placeHolder | 输入框默认值及其样式 | {style:{color:'#666'},value:['省市区','详细地址（精确到门牌号）']} |
+
 ## Update
-* 20191007 发布
+
+* 20191007 发布第一版
+
 ## License
 
 MIT © [github.com/browniu](https://github.com/github.com/browniu)
