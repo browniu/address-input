@@ -16,6 +16,16 @@ export default class ExampleComponent extends Component {
       detailInputValue: ''
     }
   }
+  componentWillMount() {
+    this.bMapInit()
+  }
+
+  bMapInit() {
+    const bMapScript = document.createElement('script')
+    bMapScript.setAttribute('type', 'text/javascript')
+    bMapScript.setAttribute('src', `https://api.map.baidu.com/api?v=2.0&ak=${this.props.appKey || 'BeepMa92yxGRYYsVsU70gIbvWlkalGR7'}&callback=initialize`)
+    document.querySelector('head').appendChild(bMapScript)
+  }
 
   clickAreaInput() {
     this.setState({isAddressArea: true})
