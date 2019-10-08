@@ -73,6 +73,7 @@
       width: calc(100% / 3);
       font-weight: bold;
       font-size: 14px;
+      pointer-events: none;
 
       &:last-child {
         color: #dc1e32;
@@ -80,6 +81,7 @@
 
       &.act {
         color: #dc1e32;
+        pointer-events: unset;
 
         &:before {
           content: '请选择';

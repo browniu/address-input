@@ -3,6 +3,7 @@ import Poop from './components/poop'
 import Area from './components/area'
 import Detail from './components/detail'
 import styles from './style.scss'
+import cx from 'classnames'
 import './index.scss'
 
 export default class ExampleComponent extends Component {
@@ -16,6 +17,7 @@ export default class ExampleComponent extends Component {
       detailInputValue: ''
     }
   }
+
   componentWillMount() {
     this.bMapInit()
   }
@@ -65,8 +67,8 @@ export default class ExampleComponent extends Component {
     const {isAddressArea, isAddressDetail, areaInputValue, detailInputValue, areaData} = this.state
     const {style} = this.props
     return (
-      <div className={styles.root}>
-        <div className='main'>
+      <div className={cx([styles.root], 'address-form-root')}>
+        <div className={'address-form-main'}>
           <div className={styles.inputGroup} onClick={() => this.clickAreaInput()}>
             <p style={style} className={styles.input}>{areaInputValue || <span>省市区</span>}</p>
           </div>
