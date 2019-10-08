@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styles from './style.scss'
 import {CSSTransition} from 'react-transition-group'
 
-export default class Poop extends Component {
+export default class Pop extends Component {
   render() {
     // eslint-disable-next-line react/prop-types
     const {children, state, close} = this.props
@@ -11,7 +11,7 @@ export default class Poop extends Component {
         <CSSTransition
           in={state}
           timeout={300}
-          classNames='up'
+          classNames='address-pop-up'
           unmountOnExit
         >
           <div className={styles.main}>
@@ -21,7 +21,7 @@ export default class Poop extends Component {
         <CSSTransition
           in={state}
           timeout={300}
-          classNames='fade'
+          classNames='address-pop-fade'
           unmountOnExit
         >
           <div className={styles.texture} onClick={close} />

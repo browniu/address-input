@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Poop from './components/poop'
+import Pop from './components/pop'
 import Area from './components/area'
 import Detail from './components/detail'
 import styles from './style.scss'
@@ -41,7 +41,7 @@ export default class ExampleComponent extends Component {
     this.setState({isAddressDetail: true})
   }
 
-  closePoop() {
+  closePop() {
     this.setState({isAddressArea: false, isAddressDetail: false})
   }
 
@@ -76,12 +76,12 @@ export default class ExampleComponent extends Component {
             <p style={style} className={styles.input}>{detailInputValue || <span>详细地址（精确到门牌号）</span>}</p>
           </div>
         </div>
-        <Poop state={isAddressArea || isAddressDetail} close={() => this.closePoop()}>
+        <Pop state={isAddressArea || isAddressDetail} close={() => this.closePop()}>
           {isAddressArea && <Area defaultValue={areaData} submit={(data) => this.areaSubmit(data)}/>}
           {isAddressDetail &&
           <Detail areaValue={areaInputValue.split(' ')} defaultValue={detailInputValue}
                   submit={(data) => this.detailSubmit(data)}/>}
-        </Poop>
+        </Pop>
       </div>
     )
   }
