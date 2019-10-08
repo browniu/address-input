@@ -20,7 +20,7 @@ npm install --save address-input
 ```jsx
 import React, { Component } from 'react'
 
-import AddressInput from 'test'
+import AddressInput from 'address-input'
 
 class Example extends Component {
   render () {
