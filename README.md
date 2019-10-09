@@ -12,7 +12,7 @@
 npm install --save address-input
 ```
 
-## Usage
+## 组件方式调用
 
 ```jsx
 import React, { Component } from 'react'

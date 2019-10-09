@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f9d4b8-2f9b-426c-925c-a6e9e753aa5b" name="Default Changelist" comment="优化结构">
+    <list default="true" id="47f9d4b8-2f9b-426c-925c-a6e9e753aa5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,26 +25,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="669">
-                <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+              <first_editor relative-caret-position="51">
+                <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="315">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -120,12 +124,6 @@
             <path>
               <item name="address-input" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Documents/browniu/dev/xsj/address-input" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="address-input" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/browniu/dev/xsj/address-input" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -171,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570498173878</updated>
       <workItem from="1570498175231" duration="1013000" />
-      <workItem from="1570499326488" duration="16476000" />
+      <workItem from="1570499326488" duration="16705000" />
     </task>
     <task id="LOCAL-00001" summary="补充文档">
       <created>1570500296626</created>
@@ -222,11 +220,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570535665751</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加iframe调用方式">
+      <created>1570602282450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570602282450</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加iframe调用方式">
+      <created>1570602470054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570602470054</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17489000" />
+    <option name="totallyTimeSpent" value="17718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1285" height="1440" extended-state="6" />
@@ -260,7 +272,8 @@
     <MESSAGE value="异步加载API框架" />
     <MESSAGE value="修复区位选择面板BUG" />
     <MESSAGE value="优化结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化结构" />
+    <MESSAGE value="增加iframe调用方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加iframe调用方式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.travis.yml">
@@ -270,13 +283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -356,23 +362,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="669">
-            <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="315">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="51">
+            <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
