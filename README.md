@@ -29,7 +29,7 @@ class Example extends Component {
 ```
 
 ## iframe方式调用
-使用iframe方式调用具有更高的兼容性和隔离型，需要调用组件的项目需要做以下配置
+使用iframe方式调用具有更好的兼容性和隔离性，需要调用组件的项目需要做以下配置
 
 ```bash
 npm install penpal --save
