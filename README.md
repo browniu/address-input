@@ -22,7 +22,7 @@ import AddressInput from 'address-input'
 class Example extends Component {
   render () {
     return (
-      <AddressInput />
+       <AddressInput submit={(info) => this.submitData(info)} style={{padding: '20px 0'}}/>
     )
   }
 }
