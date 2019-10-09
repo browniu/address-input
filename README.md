@@ -37,8 +37,29 @@ class Example extends Component {
 | style       | 输入框样式           | {font-size:'24px'}                                           |
 | placeHolder | 输入框默认值及其样式 | {style:{color:'#666'},value:['省市区','详细地址（精确到门牌号）']} |
 
-## Update
+## iframe方式调用
+使用iframe方式调用具有更高的兼容性和隔离型，需要调用组件的项目需要做以下配置
 
+```bash
+npm install penpal --save
+```
+
+```JavaScript
+import connectToChild from 'penpal/lib/connectToChild';
+
+const iframe = document.createElement('iframe');
+iframe.src = 'https://browniu.github.io/address-input/';
+document.body.appendChild(iframe);
+
+const connection = Penpal.connectToChild({
+  iframe, methods: {
+    getAddressInfo:(info)=> console.log('addressInfo:',info)
+  }
+});
+```
+
+## Update
+* 20191009 提供iframe调用方式
 * 20191008 异步加载API框架
 * 20191007 发布第一版
 

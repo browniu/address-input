@@ -6,13 +6,44 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <script src="https://unpkg.com/penpal/dist/penpal.min.js"></script>
 </head>
+<style>
+
+  iframe {
+    height: 100vh;
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .act {
+    display: block;
+  }
+</style>
 <body>
-<label>
-  <input type="text" placeholder="输入英雄" name="hero" id="input">
-  <button>提交</button>
-</label>
+<button onclick="addressAct()">输入地址</button>
+<p></p>
+<iframe class="address-input" src=" http://10.11.165.86:3000/" frameborder="0"></iframe>
 <script>
+  function addressAct() {
+    document.querySelector('iframe').className = 'act'
+  }
+
+  function getAddressInfo(info) {
+    console.log('addressInfo in parentPage ', info);
+    document.querySelector('iframe').className = '';
+    document.querySelector('p').innerText = info.join(' ')
+  }
+
+  const iframe = document.querySelector('iframe');
+  const connection = Penpal.connectToChild({
+    iframe, methods: {
+      getAddressInfo:(info)=> getAddressInfo(info)
+    }
+  });
 
 </script>
 </body>

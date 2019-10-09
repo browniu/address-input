@@ -5820,6 +5820,11 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+penpal@^4.1.1:
+  version "4.1.1"
+  resolved "http://npm-registry.seasungame.com/penpal/-/penpal-4.1.1.tgz#c96ccfdac441682acf617f6dcbc177a614e8302b"
+  integrity sha1-yWzP2sRBaCrPYX9ty8F3phToMCs=
+
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "http://npm-registry.seasungame.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
