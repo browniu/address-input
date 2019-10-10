@@ -5,7 +5,7 @@ import Detail from './components/detail'
 import styles from './style.scss'
 import cx from 'classnames'
 import './index.scss'
-
+const prefix = 'address-form-'
 export default class ExampleComponent extends Component {
   constructor(props) {
     super(props)
@@ -67,13 +67,13 @@ export default class ExampleComponent extends Component {
     const {isAddressArea, isAddressDetail, areaInputValue, detailInputValue, areaData} = this.state
     const {style} = this.props
     return (
-      <div className={cx([styles.root], 'address-form-root')}>
-        <div className={'address-form-main'}>
-          <div className={styles.inputGroup} onClick={() => this.clickAreaInput()}>
-            <p style={style} className={styles.input}>{areaInputValue || <span>省市区</span>}</p>
+      <div className={`${prefix}root`}>
+        <div className={`${prefix}main`}>
+          <div className={`${prefix}inputGroup`} onClick={() => this.clickAreaInput()}>
+            <p style={style} className={`${prefix}input`}>{areaInputValue || <span>省-市-区</span>}</p>
           </div>
-          <div className={styles.inputGroup} onClick={() => this.clickDetailInput()}>
-            <p style={style} className={styles.input}>{detailInputValue || <span>详细地址（精确到门牌号）</span>}</p>
+          <div className={`${prefix}inputGroup`} onClick={() => this.clickDetailInput()}>
+            <p style={style} className={`${prefix}input`}>{detailInputValue || <span>详细地址（精确到门牌号）</span>}</p>
           </div>
         </div>
         <Pop state={isAddressArea || isAddressDetail} close={() => this.closePop()}>

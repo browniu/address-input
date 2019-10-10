@@ -1,30 +1,29 @@
 import React, {Component} from 'react'
 import styles from './style.scss'
 import {CSSTransition} from 'react-transition-group'
-
+const prefix = 'address-pop-'
 export default class Pop extends Component {
   render() {
-    // eslint-disable-next-line react/prop-types
     const {children, state, close} = this.props
     return (
-      <div className={styles.root}>
+      <div className={`${prefix}root`}>
         <CSSTransition
           in={state}
           timeout={300}
-          classNames='address-pop-up'
+          classNames={`${prefix}up`}
           unmountOnExit
         >
-          <div className={styles.main}>
-            <div className={styles.close} onClick={close} />
+          <div className={`${prefix}main`}>
+            <div className={`${prefix}close`} onClick={close} />
             {children}</div>
         </CSSTransition>
         <CSSTransition
           in={state}
           timeout={300}
-          classNames='address-pop-fade'
+          classNames={`${prefix}fade`}
           unmountOnExit
         >
-          <div className={styles.texture} onClick={close} />
+          <div className={`${prefix}texture`} onClick={close} />
         </CSSTransition>
       </div>
     )

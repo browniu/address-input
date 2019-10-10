@@ -47,7 +47,7 @@ const connection = Penpal.connectToChild({
   }
 });
 ```
->[实例](https://github.com/browniu/address-input/blob/master/iframeTest/index.html)
+[iframe调用实例](https://github.com/browniu/address-input/blob/master/iframeTest/index.html)
 
 ## API
 
@@ -61,6 +61,7 @@ const connection = Penpal.connectToChild({
 
 
 ## Update
+* 20191010 重构样式模块化的实现方式，便于进行样式覆盖
 * 20191009 提供iframe调用方式
 * 20191008 异步加载API框架
 * 20191007 发布第一版

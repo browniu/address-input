@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styles from './style.scss'
 import cx from 'classnames'
 import defaultData from './data'
-
+const prefix = 'address-area-'
 const data = JSON.parse(JSON.parse(JSON.stringify(defaultData())))
 export default class Area extends Component {
   constructor(props) {
@@ -40,12 +40,12 @@ export default class Area extends Component {
       {label: '郑州', province: {name: '河南', number: 410000}, city: {name: '郑州', number: 410100}}
     ]
     return (
-      <div className={styles.hot}>
-        <div className={styles.itemTitle}>热门城市</div>
-        <div className={styles.items}>
+      <div className={`${prefix}hot`}>
+        <div className={`${prefix}itemTitle`}>热门城市</div>
+        <div className={`${prefix}items`}>
           {hotData.map((item, index) => (
             <li onClick={() => this.selectHot(index, item)} key={index}
-                className={cx(styles.item, {[styles.act]: index === this.state.hotIndex})}>
+                className={cx(`${prefix}item`, {[styles.act]: index === this.state.hotIndex})}>
               <span>{item.label}</span>
             </li>
           ))}
@@ -57,16 +57,16 @@ export default class Area extends Component {
   renderPanel() {
     const {selectProvince, selectCity, selectArea} = this.state
     return (
-      <div className={styles.panel}>
-        <div className={styles.itemTitle}>省市区选择</div>
-        <div className={styles.panelHeader} onClick={(e) => this.panelHeaderClick(e)}>
-          <li data-level={0} className={cx({[styles.act]: !selectProvince.name})}>{selectProvince.name}</li>
+      <div className={`${prefix}panel`}>
+        <div className={`${prefix}itemTitle`}>省市区选择</div>
+        <div className={`${prefix}panelHeader`} onClick={(e) => this.panelHeaderClick(e)}>
+          <li data-level={0} className={cx({act: !selectProvince.name})}>{selectProvince.name}</li>
           <li data-level={1}
-              className={cx({[styles.act]: selectProvince.name && !selectCity.name})}>{selectCity.name}</li>
+              className={cx({act: selectProvince.name && !selectCity.name})}>{selectCity.name}</li>
           <li data-level={2}
-              className={cx({[styles.act]: selectProvince.name && selectCity.name && !selectArea.name})}>{selectArea.name}</li>
+              className={cx({act: selectProvince.name && selectCity.name && !selectArea.name})}>{selectArea.name}</li>
         </div>
-        <div className={styles.panelMain}>
+        <div className={`${prefix}panelMain`}>
           {Object.keys(this.state.panelList).map(item => (
             <li key={item} onClick={() => this.panelItemSelect(item)}>
               <span>{this.state.panelList[item]}</span></li>
@@ -142,12 +142,12 @@ export default class Area extends Component {
 
   render() {
     return (
-      <div className={styles.root}>
-        <div className={styles.header}>
-          <div className={styles.title}>城市地区选择</div>
-          <i className={styles.close}/>
+      <div className={`${prefix}root`}>
+        <div className={`${prefix}header`}>
+          <div className={`${prefix}title`}>城市地区选择</div>
+          <i className={`${prefix}close`}/>
         </div>
-        <div className={styles.main}>
+        <div className={`${prefix}main`}>
           {this.renderHot()}
           {this.renderPanel()}
         </div>

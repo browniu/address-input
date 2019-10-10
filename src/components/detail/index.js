@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import styles from './style.scss'
-
+const prefix = 'address-detail-'
 export default class AddressEdit extends Component {
   constructor(props) {
     super(props)
@@ -112,13 +112,13 @@ export default class AddressEdit extends Component {
     const {defaultValue,} = this.props
     const {inputValue} = this.state
     return (
-      <div className={styles.root}>
-        <div className={styles.header}>
-          <div className={styles.title}>详细地址编辑</div>
-          <i className={styles.close}/>
+      <div className={`${prefix}root`}>
+        <div className={`${prefix}header`}>
+          <div className={`${prefix}title`}>详细地址编辑</div>
+          <i className={`${prefix}close`}/>
         </div>
-        <div className={styles.main}>
-          <div className={styles.input}>
+        <div className={`${prefix}main`}>
+          <div className={`${prefix}input`}>
                         <textarea
                           rows={1}
                           ref={this.inputDom}
@@ -126,17 +126,17 @@ export default class AddressEdit extends Component {
                           onChange={e => this.inputChange(e)}
                         />
             {(inputValue || defaultValue) &&
-            <div className={styles.button} onClick={() => this.submitItem()}>确认</div>}
+            <div className={`${prefix}button`} onClick={() => this.submitItem()}>确认</div>}
           </div>
-          <div className={styles.list}>
+          <div className={`${prefix}list`}>
             {this.state.results.map((item, index) => (
               <li
                 key={index}
-                className={styles.item}
+                className={`${prefix}item`}
                 onClick={() => this.selectItem(item)}
               >
-                <div className={styles.title}>{item.title}</div>
-                <div className={styles.sub}>{item.address}</div>
+                <div className={`${prefix}title`}>{item.title}</div>
+                <div className={`${prefix}sub`}>{item.address}</div>
               </li>
             ))}
           </div>

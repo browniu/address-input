@@ -1,14 +1,15 @@
-.root {
-  .header {
+$prefix:'address-detail-';
+.#{$prefix}root {
+  .#{$prefix}header {
     position: relative;
 
-    .title {
+    .#{$prefix}title {
       padding: 20px 15px;
       font-weight: bold;
       border-bottom: 1px solid #f1f1f1;
     }
 
-    .close {
+    .#{$prefix}close {
       position: absolute;
       right: 35px;
       top: 50%;
@@ -22,9 +23,9 @@
     }
   }
 
-  .main {
+  .#{$prefix}main {
 
-    .itemTitle {
+    .#{$prefix}itemTitle {
       font-size: 12px;
       color: #c1c1c1;
       margin: 10px 15px;
@@ -32,7 +33,7 @@
   }
 }
 
-.input {
+.#{$prefix}input {
   background: #fff;
   margin: 1px 0 5px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -49,7 +50,7 @@
     box-sizing: border-box;
     padding-right: 70px;
   }
-  .button{
+  .#{$prefix}button{
     right: 25px;
     position: absolute;
     top: 50%;
@@ -59,7 +60,7 @@
 }
 
 
-.list {
+.#{$prefix}list {
   padding: 0 15px;
   height: 350px;
   overflow-y: scroll;
@@ -73,13 +74,13 @@
   }
 }
 
-.item {
-  .title {
+.#{$prefix}item {
+  .#{$prefix}title {
     margin-bottom: 5px;
     font-weight: bold;
   }
 
-  .sub {
+  .#{$prefix}sub {
     font-size: 14px;
     opacity: .7;
   }

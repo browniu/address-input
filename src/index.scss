@@ -1,4 +1,4 @@
-:global {
+
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -54,41 +54,3 @@
   .test {
     background: green;
   }
-
-  .address-pop-fade-enter {
-    opacity: 0;
-  }
-
-  .address-pop-fade-enter-active {
-    opacity: 1;
-    transform: translateX(0);
-    transition: opacity 350ms ease, transform 350ms ease;
-  }
-
-  .address-pop-fade-exit {
-    opacity: 1;
-  }
-
-  .address-pop-fade-exit-active {
-    opacity: 0;
-    transition: opacity 350ms ease, transform 350ms ease;
-  }
-
-  .address-pop-up-enter {
-    transform: translateY(100%);
-  }
-
-  .address-pop-up-enter-active {
-    transform: translateY(0%);
-    transition: transform 350ms ease;
-  }
-
-  .address-pop-up-exit {
-    transform: translateY(0%)
-  }
-
-  .address-pop-up-exit-active {
-    transform: translateY(100%);
-    transition: transform 350ms ease;
-  }
-}

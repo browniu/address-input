@@ -1,14 +1,16 @@
-.root {
-  .header {
+$prefix:'address-area-';
+
+.#{$prefix}root {
+  .#{$prefix}header {
     position: relative;
 
-    .title {
+    .#{$prefix}title {
       padding: 20px 15px;
       font-weight: bold;
       border-bottom: 1px solid #f1f1f1;
     }
 
-    .close {
+    .#{$prefix}close {
       position: absolute;
       right: 35px;
       top: 50%;
@@ -22,10 +24,10 @@
     }
   }
 
-  .main {
+  .#{$prefix}main {
     padding: 15px 0 0;
 
-    .itemTitle {
+    .#{$prefix}itemTitle {
       font-size: 12px;
       color: #c1c1c1;
       margin: 10px 15px;
@@ -33,11 +35,11 @@
   }
 }
 
-.hot {
+.#{$prefix}hot {
 
-  .items {
+  .#{$prefix}items {
 
-    .item {
+    .#{$prefix}item {
       display: inline-block;
       width: calc(100% / 4);
       text-align: center;
@@ -62,8 +64,8 @@
   }
 }
 
-.panel {
-  .panelHeader {
+.#{$prefix}panel {
+  .#{$prefix}panelHeader {
     border-bottom: 1px solid #f1f1f1;
     padding: 0 15px;
 
@@ -90,7 +92,7 @@
     }
   }
 
-  .panelMain {
+  .#{$prefix}panelMain {
     height: 350px;
     overflow-y: scroll;
     overflow-x: hidden;

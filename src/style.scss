@@ -1,13 +1,15 @@
 
-.root {
+$prefix:'address-form-';
+
+.#{$prefix}root{
   padding: 0 25px;
   max-width: 800px;
 }
 
-.inputGroup {
+.#{$prefix}inputGroup {
   position: relative;
 
-  .input {
+  .#{$prefix}input {
     pointer-events: none;
     font-size: 15px;
     padding: 25px 0;
