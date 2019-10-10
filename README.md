@@ -39,7 +39,7 @@ npm install penpal --save
 import connectToChild from 'penpal/lib/connectToChild';
 
 const iframe = document.createElement('iframe');
-iframe.src = 'https://browniu.github.io/address-input/';
+iframe.src = 'https://browniu.github.io/address-input/?iframe';
 document.body.appendChild(iframe);
 
 const connection = Penpal.connectToChild({
@@ -69,3 +69,6 @@ const connection = Penpal.connectToChild({
 ## License
 
 MIT © [github.com/browniu](https://github.com/github.com/browniu)
+
+
+

@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 import AddressInput from 'address-input'
-import connectToParent from 'penpal/lib/connectToParent';
 
 export default class App extends Component {
   componentDidMount() {
-    this.connection = connectToParent();
+    this.iframe = window.location.href.match(/iframe/)
+    if(this.iframe)this.connection = window.Penpal.connectToParent();
   }
 
   submitData(info) {
+    if(!this.iframe) return
     this.connection.promise.then(parent => {
       parent.getAddressInfo(info)
     });
@@ -21,3 +22,6 @@ export default class App extends Component {
     )
   }
 }
+
+
+
