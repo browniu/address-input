@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import styles from './style.scss'
-const prefix = 'address-detail-'
+const prefix = 'adi-detail-'
 export default class AddressEdit extends Component {
   constructor(props) {
     super(props)

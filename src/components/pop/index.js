@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import styles from './style.scss'
 import {CSSTransition} from 'react-transition-group'
-const prefix = 'address-pop-'
+const prefix = 'adi-pop-'
 export default class Pop extends Component {
   render() {
     const {children, state, close} = this.props

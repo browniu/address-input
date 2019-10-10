@@ -5,7 +5,7 @@ import Detail from './components/detail'
 import styles from './style.scss'
 import cx from 'classnames'
 import './index.scss'
-const prefix = 'address-form-'
+const prefix = 'adi-form-'
 export default class ExampleComponent extends Component {
   constructor(props) {
     super(props)

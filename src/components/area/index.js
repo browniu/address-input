@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styles from './style.scss'
 import cx from 'classnames'
 import defaultData from './data'
-const prefix = 'address-area-'
+const prefix = 'adi-area-'
 const data = JSON.parse(JSON.parse(JSON.stringify(defaultData())))
 export default class Area extends Component {
   constructor(props) {
