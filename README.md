@@ -47,8 +47,9 @@ const connection = Penpal.connectToChild({
     getAddressInfo:(info)=> console.log('addressInfo:',info)
   }
 });
-
 ```
+>[实例](https://github.com/browniu/address-input/blob/master/iframeTest/index.html)
+
 ## API
 
 | 接口        | 描述                 | 默认值                                                       |
