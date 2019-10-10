@@ -65,15 +65,15 @@ export default class ExampleComponent extends Component {
 
   render() {
     const {isAddressArea, isAddressDetail, areaInputValue, detailInputValue, areaData} = this.state
-    const {style} = this.props
+    const {style,rootClass,placeHolder=['省-市-区','详细地址（精确到门牌号）']} = this.props
     return (
-      <div className={`${prefix}root`}>
+      <div className={cx(`${prefix}root`,rootClass)}>
         <div className={`${prefix}main`}>
           <div className={`${prefix}inputGroup`} onClick={() => this.clickAreaInput()}>
-            <p style={style} className={`${prefix}input`}>{areaInputValue || <span>省-市-区</span>}</p>
+            <p style={style} className={`${prefix}input`}>{areaInputValue || <span>{placeHolder[0]||'省-市-区'}</span>}</p>
           </div>
           <div className={`${prefix}inputGroup`} onClick={() => this.clickDetailInput()}>
-            <p style={style} className={`${prefix}input`}>{detailInputValue || <span>详细地址（精确到门牌号）</span>}</p>
+            <p style={style} className={`${prefix}input`}>{detailInputValue || <span>{placeHolder[1]||'详细地址（精确到门牌号）'}</span>}</p>
           </div>
         </div>
         <Pop state={isAddressArea || isAddressDetail} close={() => this.closePop()}>

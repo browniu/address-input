@@ -17,7 +17,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <AddressInput submit={(info) => this.submitData(info)} style={{padding: '20px 0'}}/>
+        <AddressInput rootClass={'addressComponent'} submit={(info) => this.submitData(info)} style={{padding: '20px 0'}}/>
       </div>
     )
   }
