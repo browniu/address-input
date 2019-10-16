@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/test.svg)](https://www.npmjs.com/package/address-input) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## [demo](https://browniu.github.io/address/)
+## [demo](https://browniu.github.io/address-input/)
 ## Install
 
 ```bash
