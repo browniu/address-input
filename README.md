@@ -6,7 +6,7 @@
 
 ## [demo](https://browniu.github.io/address-input/)
 
-![demo](./static/address.gif)
+![demo](./static/address2.gif)
 
 ## Install
 
