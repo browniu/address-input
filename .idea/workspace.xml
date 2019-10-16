@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f9d4b8-2f9b-426c-925c-a6e9e753aa5b" name="Default Changelist" comment="调整作用域前缀为adi">
+    <list default="true" id="47f9d4b8-2f9b-426c-925c-a6e9e753aa5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -15,13 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="189">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="126">
+                <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -143,7 +143,8 @@
       <workItem from="1570678184871" duration="1943000" />
       <workItem from="1570780237704" duration="353000" />
       <workItem from="1571216918784" duration="136000" />
-      <workItem from="1571217083456" duration="11000" />
+      <workItem from="1571217083456" duration="33000" />
+      <workItem from="1571217173601" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="补充文档">
       <created>1570500296626</created>
@@ -306,17 +307,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570780407783</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="文档更新">
+      <created>1571217108257</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571217108257</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33108000" />
+    <option name="totallyTimeSpent" value="33207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27333596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27333596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -330,7 +338,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36484492" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36484492" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,7 +361,8 @@
     <MESSAGE value="开放自定义classAPI" />
     <MESSAGE value="废弃styleAPI" />
     <MESSAGE value="调整作用域前缀为adi" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整作用域前缀为adi" />
+    <MESSAGE value="文档更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="文档更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.travis.yml">
@@ -530,8 +539,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="189">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="126">
+            <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
